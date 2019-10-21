@@ -1,6 +1,6 @@
 FROM nixos/nix
 
-ENV NIXPKGS nixos-19.03
+ENV NIXPKGS nixos-19.09
 
 RUN nix-channel --add https://nixos.org/channels/${NIXPKGS} nixpkgs
 RUN nix-channel --update
